@@ -537,3 +537,26 @@ footer a {
     background: var(--primary);
     color: white;
 }
+
+.error-text {
+    color: #d64545;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+    display: block;
+}
+
+.response-view {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #eef7f6;
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    text-align: left;
+}
+
+.response-view pre {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+}
